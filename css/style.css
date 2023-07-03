@@ -263,7 +263,7 @@
  }
 
  .clasicos img {
-     max-height: 414px;
+     max-height: 425px;
      border-radius: 5px;
  }
 
@@ -398,11 +398,12 @@
  .flex-padre-menu .pastas h3 {
      font-family: "new-font";
      padding-top: 4px;
-     margin-left: 204px;
+     margin: auto;
+     text-align: center;
  }
 
  .flex-padre-menu .pastas img {
-     max-width: 440px;
+     max-width: 450px;
      border-radius: 5px;
      margin: 0 20px;
  }
@@ -419,8 +420,9 @@
  }
 
  .flex-padre-menu .empanadas h3 {
-     margin-left: 107px;
      font-family: "new-font";
+     margin: auto;
+     text-align: center;
  }
 
  .flex-padre-menu .empanadas div {
@@ -451,8 +453,9 @@
  }
 
  .flex-padre-menu .postres h3 {
-     margin-left: 107px;
      font-family: "new-font";
+     margin: auto;
+     text-align: center;
  }
 
  /****** Nosotros MAIN ******/
@@ -503,10 +506,11 @@
      color: #B31312;
      text-align: center;
      background-color: #EEE2DE;
-     font-family: 'Oswald', sans-serif;
+     font-family: "paytone";
      padding-top: 2px;
      padding-bottom: 6px;
-     font-size: 40px;
+     font-size: 35px;
+     text-transform: uppercase;
  }
 
  .h2-contacto {
@@ -514,7 +518,7 @@
      color: #2B2A4C;
      font-weight: 500;
      text-align: center;
-     margin: 10spx 0;
+    padding: 10px 0;
  }
 
  .form-container {
@@ -591,13 +595,15 @@
  }
 
  .mas-info-box {
-     width: 250px;
-     height: 450px;
+     height: 400px;
      display: flex;
      flex-direction: column;
-     align-items: flex-start;
-     margin-top: 20px;
      justify-content: space-evenly;
+     background-color: #f0f0f0;
+     margin: auto;
+     padding: 10px;
+     border: solid #e3e3e3;
+     align-items: center;
  }
 
  .mas-info-box img {
@@ -744,108 +750,124 @@ display: flex;
          max-width: 309px;
          max-height: 366px;
      }
-     .section-main2 img {
-        max-width: 65px;
-        max-height: 65px;
-        margin-left: 14px;
-        padding-top: 15px;
-    }
 
-    .section-main2 h1 {
-        font-size: 50px;
-    }
+     .section-main2 img {
+         max-width: 65px;
+         max-height: 65px;
+         margin-left: 14px;
+         padding-top: 15px;
+     }
+
+     .section-main2 h1 {
+         font-size: 50px;
+     }
  }
 
  @media (max-width: 850px) {
      .video-container {
          display: none;
-     }  
+     }
+
      .main .h1-tu-clasico {
-        font-size: 33px;
-        color: #B31312;
-    }
+         font-size: 33px;
+         color: #B31312;
+     }
 
      .flex-padre img {
          max-width: 309px;
          max-height: 327px;
      }
+
      .main .h2-inicio {
-        font-size: 38px;
-        margin: 0 3px;
-    }
-    .section-main2 img {
-        max-width: 62px;
-        max-height: 62px;
-        margin-left: 14px;
-        padding-top: 15px;
-    }
+         font-size: 38px;
+         margin: 0 3px;
+     }
 
-    .section-main2 h1 {
-        font-size: 47px;
-    }
+     .section-main2 img {
+         max-width: 62px;
+         max-height: 62px;
+         margin-left: 14px;
+         padding-top: 15px;
+     }
+
+     .section-main2 h1 {
+         font-size: 47px;
+     }
  }
-@media(max-width: 764px) {
-    .flex-padre img{
-        max-width: 309px;
+
+ @media(max-width: 764px) {
+     .flex-padre img {
+         max-width: 309px;
          max-height: 300px;
-    }    
+     }
+
      .main .h1-tu-clasico {
-        font-size: 30px;
-        color: #B31312;
-    }
-    .main .h2-inicio {
-        font-size: 36px;
-        margin: 0 3px;
-    }
-    .h3-index {
-        font-size: 33px;
-    }
-}
-@media (max-width:700px){
-    .flex-padre img{
-        max-width: 309px;
+         font-size: 30px;
+         color: #B31312;
+     }
+
+     .main .h2-inicio {
+         font-size: 36px;
+         margin: 0 3px;
+     }
+
+     .h3-index {
+         font-size: 33px;
+     }
+ }
+
+ @media (max-width:700px) {
+     .flex-padre img {
+         max-width: 309px;
          max-height: 397px;
-    }
-    .main .h2-inicio {
-        font-size: 34px;
-        margin: 0 3px;
-    }
-    .section-main2 img {
-        max-width: 60px;
-        max-height: 60px;
-        margin-left: 14px;
-        padding-top: 15px;
-    }
+     }
 
-    .section-main2 h1 {
-        font-size: 37px;
-    }
-    .h3-index {
-        font-size: 31px;
-    }
-}
-@media (max-width: 600px){
-    .flex-padre img {
-        max-width: 230px;
-    }
-    .main .h2-inicio {
-        font-size: 32px;
-        margin: 0 3px;
-    }
-    .section-main2 img {
-        max-width: 58px;
-        max-height: 58px;
-        margin-left: 14px;
-        padding-top: 15px;
-    }
+     .main .h2-inicio {
+         font-size: 34px;
+         margin: 0 3px;
+     }
 
-    .section-main2 h1 {
-        font-size: 35px;
-    }
-    .h3-index {
-        font-size: 29px;
-    }
-}
+     .section-main2 img {
+         max-width: 60px;
+         max-height: 60px;
+         margin-left: 14px;
+         padding-top: 15px;
+     }
+
+     .section-main2 h1 {
+         font-size: 37px;
+     }
+
+     .h3-index {
+         font-size: 31px;
+     }
+ }
+
+ @media (max-width: 600px) {
+     .flex-padre img {
+         max-width: 230px;
+     }
+
+     .main .h2-inicio {
+         font-size: 32px;
+         margin: 0 3px;
+     }
+
+     .section-main2 img {
+         max-width: 58px;
+         max-height: 58px;
+         margin-left: 14px;
+         padding-top: 15px;
+     }
+
+     .section-main2 h1 {
+         font-size: 35px;
+     }
+
+     .h3-index {
+         font-size: 29px;
+     }
+ }
 
  @media (max-width: 550px) {
      .header {
@@ -904,12 +926,134 @@ display: flex;
      .video-container {
          display: none;
      }
+ }
 
+ /***** MEDIA MENU *****/
+
+ @media(max-width:1400px) {
+     .h1-menu {
+         font-size: 35px;
+     }
+
+     .main-menu h2 {
+         font-size: 34px;
+     }
+
+     .clasicos img {
+         height: 400px;
+         max-width: 400px;
+     }
+
+     .flex-padre-menu .acompanamientos img {
+         height: 208px;
+     }
+     .flex-padre-menu .pastas img{
+        max-width: 430px;
+     }
+ }
+
+ @media(max-width:1200px) {
+     .h1-menu {
+         font-size: 33px;
+     }
+
+     .main-menu h2 {
+         font-size: 32px;
+     }
+
+     .clasicos img {
+         height: 380px;
+         max-width: 370px;
+     }
+
+     .flex-padre-menu .acompanamientos img {
+        max-width:287px;
+        height: 208px;
+     }
+     .flex-padre-menu .pastas img{
+        max-width: 410px;
+     }
+ }
+
+ @media(max-width:992px) {
+     .h1-menu {
+         font-size: 32px;
+     }
+
+     .main-menu h2 {
+         font-size: 31px;
+     }
+
+     .clasicos img {
+         height: 360px;
+         max-width: 350px;
+     }
+     .flex-padre-menu .pastas img{
+        max-width: 390px;
+     }
+ }
+
+ @media(max-width:768px) {
+     .h1-menu {
+         font-size: 31px;
+     }
+
+     .main-menu h2 {
+         font-size: 30px;
+     }
+
+     .clasicos img {
+         height: 340px;
+         max-width: 350px;
+     }
+     .flex-padre-menu .pastas img{
+        max-width: 380px;
+     }
+ }
+
+ @media(max-width:576px) {
+     .h1-menu {
+         font-size: 29px;
+     }
+
+     .main-menu h2 {
+         font-size: 28px;
+     }
+
+     .clasicos img {
+         height: 300px;
+         max-width: 350px;
+     }
+     .flex-padre-menu .pastas img{
+        max-width: 350px;
+     }
  }
 
  /***** MEDIA CONTACTO *****/
+ @media(max-width: 1400px){
+    .h1-contacto {
+        font-size: 33px;
+        font-family: "paytone";
+        text-transform: uppercase;
+    }
+
+    .h2-contacto {
+        font-size: 24px;
+        padding-top: 8px;
+    }
+ }
  @media (max-width: 1200px) {
-     .mas-info-box {
+    .h1-contacto {
+        font-size: 31px;
+        font-family: "paytone";
+        text-transform: uppercase;
+    }
+
+    .h2-contacto {
+        font-size: 22px;
+        padding-top: 8px;
+    } 
+    .mas-info-box {
          width: 230px;
      }
 
@@ -951,13 +1095,13 @@ display: flex;
      }
 
      .h1-contacto {
-         font-size: 25px;
+         font-size: 30px;
          font-family: "paytone";
          text-transform: uppercase;
      }
 
      .h2-contacto {
-         font-size: 22px;
+         font-size: 20px;
          padding-top: 8px;
      }
  }
