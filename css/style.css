@@ -103,8 +103,8 @@
      flex-wrap: wrap;
      height: auto;
      align-content: center;
-     /* background-image: url("../resourses/images/local.JPG"); */
-     background-position: center;
+     background-image: url("../resourses/images/fondo-menu.jpg");
+     background-position: right;
      background-size: cover;
  }
 
@@ -545,6 +545,14 @@
  .main-nosotros .mari-atendiendo {
      display: flex;
      flex-direction: column;
+ }
+ .cocinera-container{
+    display: flex;
+    flex-direction: row;
+ }
+ .cocinera-container img{
+    max-width: 500px;
+    height: 667px;
  }
 
  /* .h2-nosotros{
