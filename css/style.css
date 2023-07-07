@@ -460,34 +460,69 @@
  }
 
  /****** Nosotros MAIN ******/
+
+.nosotros-titulo-container{
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.title-box{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ .nosotros-titulo-container video{ 
+    width: 100%;
+    object-fit: cover;
+    
+ }
+
  .main-nosotros {
-     display: grid;
-     grid-template-areas: "mari-retrato div-background mari-atendiendo";
- }
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    
+    }
 
- .div-background {
-     grid-area: div-background;
- }
-
- .mari-retrato {
-     grid-area: mari-retrato;
- }
-
- .mari-atendiendo {
-     grid-area: mari-atendiendo;
- }
- 
+     
  .h1-nosotros {
-     color: rgb(179, 19, 18);
+     color: #c91313;
      text-align: center;
      padding-top: 2px;
      padding-bottom: 6px;
-     background-color: #EEE2DE;
      font-family: "paytone";
-     font-size: 35px;
+     font-size: 46px;
      text-transform: uppercase;
  }
+ .h2-nosotros {
+    font-family: "oswald";
+    color: #2B2A4C;
+    font-size: 42px;
+    text-align: center;
+}
+.h3-nosotros{
+    font-family: "oswald";
+    color: #2B2A4C;
+    font-size: 26px;
+    text-align: center;
 
+}
+
+/* .h1-nos-importa ::after{
+    display: block;
+    width: 30%;
+    height: 10px;
+    content: "";
+    margin: auto;
+    background-color: #c91313;
+} */
  .main-nosotros p {
      padding: 10px;
      max-width: 70%;
@@ -495,14 +530,10 @@
      font-size: 20px;
 
  }
-
- .main-nosotros .mari-retrato {
-     max-width: 500px;
- }
+ 
 
  .div-background {
-     background-image: url(../resourses/images/mari-jose.jpg);
-     background-size: cover;
+     background-color: #f0f0f0;
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -512,17 +543,16 @@
 
  .div-background p{
     color: rgb(152, 1, 1);
-    /* background-color: #e3e3e3; */
  }
  .div-background span {
      font-size: 2rem;
      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-     margin-top: 35px;
+     margin: 5px;
      color: #2e2e2d;
  }
 
  .div-background h2 {
-    margin-top: 10px;
+    margin-top: 20px;
      font-size: 2.7rem;
      text-transform: uppercase;
      font-family: "paytone";
@@ -530,22 +560,13 @@
  }
 
 
- .h2-nosotros {
-     font-family: "oswald";
-     color: #2B2A4C;
-     font-size: 1.5rem;
-     text-align: center;
-     margin: 25px;
- }
-
- .main-nosotros .mari-atendiendo img {
-     width: 200px;
- }
-
  .main-nosotros .mari-atendiendo {
-     display: flex;
-     flex-direction: column;
+     width: 80%;
+    margin-left: 55px;
  }
+ 
+
+
  .cocinera-container{
     display: flex;
     flex-direction: row;
@@ -1070,6 +1091,17 @@
          max-width: 380px;
      }
  }
+ @media (max-width:701px){
+    .flex-padre {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .flex-padre img{
+        margin: 5px;
+    }
+ }
 
  @media(max-width:576px) {
      .h1-menu {
@@ -1088,6 +1120,26 @@
      .flex-padre-menu .pastas img {
          max-width: 300px;
      }
+ }
+ /***** MEDIA NOSOTROS *****/
+ @media(max-width:550px){
+    .title-box{
+        justify-content: flex-start;
+        padding-top: 75px;
+    }
+
+    
+    .h1-nosotros{
+        font-size: 26px;
+        text-decoration: underline;
+    }
+    .h2-nosotros{
+        font-size: 20px;
+    }
+    .h3-nosotros{
+        font-size: 16px;
+        text-align: center;
+    }
  }
 
  /***** MEDIA CONTACTO *****/
