@@ -551,7 +551,7 @@
      color: #2e2e2d;
  }
 
- .div-background h2 {
+ .div-background h3 {
     margin-top: 20px;
      font-size: 2.7rem;
      text-transform: uppercase;
@@ -1140,6 +1140,21 @@
         font-size: 16px;
         text-align: center;
     }
+    .div-background span{
+        font-size: 24px;
+    } 
+    .div-background h3 {
+        font-size: 20px;
+    }
+    .main-nosotros p{
+        color: black;
+        font-family: "oswald";
+        font-size: 16px;
+        text-align: center;
+    }
+    .main-nosotros .mari-atendiendo{
+        margin-left: 36px;
+    }
  }
 
  /***** MEDIA CONTACTO *****/
@@ -1297,7 +1312,9 @@
      .h1-nos-importa {
          font-size: 28px;
      }
-
+     .nos-importa-iframe{
+        width: 100%;
+     }
      .div-container .h2-nos-importa {
          font-size: 44px;
      }
@@ -1324,7 +1341,10 @@
      .main-nos-importa {
          align-items: flex-start;
      }
-
+     .nos-importa-iframe{
+        width: 100%;
+        
+     }
      .h1-nos-importa {
          font-size: 27px;
      }
