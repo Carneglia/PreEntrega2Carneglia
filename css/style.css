@@ -250,7 +250,40 @@
      font-size: 35px;
      margin: 10px;
  }
+.barra-menu{
+    background-color: #EEE2DE;
+    display: flex;
+    width: 100%;
+   
+}
+.barra-menu ul{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #EEE2DE;
+    justify-content: center;
+    padding-bottom: 10px;
+    
+}
+.barra-menu a{
+text-decoration: none;
+font-family: "oswald";
+text-transform: uppercase;
+font-size: 14px;
+padding: 10px;
+color: #2B2A4C;
+/* background-color: #fff479ec; */
+border-radius: 2px;
 
+}
+.barra-menu a:hover{
+    font-size: 15px;
+    text-decoration:overline;
+    color: #6561df;
+    transition: 0.5s ease ;
+    padding: 12px;
+}
  .flex-padre-menu .clasicos {
 
      border-radius: 15px;
