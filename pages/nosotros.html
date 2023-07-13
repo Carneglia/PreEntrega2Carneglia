@@ -12,18 +12,20 @@
 
 <body>
     <header class="header">
-        <a href="../index.html"><img src="../resourses/images/proto-logo.png" alt="logo-rotisería3" class="logo">
-        </a>
         <nav class="nav">
-            <ul>
+            <a href="../index.html"><img src="../resourses/images/proto-logo.png" alt="logo-rotisería3" class="logo">
+            </a>
+            <ul id="menuList">
                 <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./menu.html">Menú</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-                <li><a href="./nos-importa.html">Nos Importa</a></li>
+                <li><a href="../pages/menu.html">Menú</a></li>
+                <li><a href="../pages/nosotros.html">Nosotros</a></li>
+                <li><a href="../pages/contacto.html">Contacto</a></li>
+                <li><a href="../pages/nos-importa.html">Nos Importa</a></li>
             </ul>
-        </nav>
+            <img class="burguer-button" src="../resourses/images/hamburguerButton.png" alt="imagen del boton del menu"
+                onclick="togglemenu()">
 
+        </nav>
 
     </header>
     <div class="nosotros-titulo-container">
@@ -106,6 +108,24 @@
         </div>
 
     </footer>
+    <script>
+        var menuList = document.getElementById("menuList");
+
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu() {
+
+            if (menuList.style.maxHeight == "0px") {
+                menuList.style.maxHeight = "100%";
+            }
+            else {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+       
+                
+        
+    </script>
 </body>
 
 </html>
